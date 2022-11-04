@@ -1,0 +1,12 @@
+{ "name": "cheeseboard-project",
+  "version": "1.0.0",
+  "description": "Multiverse cheeseboard project",
+  "main": "main,js",
+  "scripts": {
+    "seed": "cd db && node seed"
+  },
+  "dependencies": {
+    "sequelize": "^6.25.3",
+    "sqlite3": "^5.1.2"
+  }
+}
